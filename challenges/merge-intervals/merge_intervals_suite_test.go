@@ -1,4 +1,4 @@
-	package queue_test
+package merge_intervals_test
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestQueue(t *testing.T) {
+func TestMergeIntervals(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Queue Suite")
+	RunSpecs(t, "MergeIntervals Suite")
 }

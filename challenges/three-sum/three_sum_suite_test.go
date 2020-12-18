@@ -1,4 +1,4 @@
-	package queue_test
+package three_sum_test
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestQueue(t *testing.T) {
+func TestThreeSum(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Queue Suite")
+	RunSpecs(t, "ThreeSum Suite")
 }

@@ -1,4 +1,4 @@
-	package queue_test
+package group_anagrams_test
 
 import (
 	"testing"
@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestQueue(t *testing.T) {
+func TestGroupAnagrams(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Queue Suite")
+	RunSpecs(t, "GroupAnagrams Suite")
 }
